@@ -1,21 +1,55 @@
+*
+{
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
 .title
 {
     font-weight: bold;
     font-size: 40px;
+    background-color: black;
+    color:white;
+    text-align:center;
 }
 
-.h2{
+h2 {
     font-weight: bold;
     font-size: 25px;
+    background-color: rgb(227, 217, 140);
 }
 
-.font
+ul li,
+.ingrediant
 {
-    font-family:'Times New Roman', Times, serif;
+    background-color: blanchedalmond;
+    font-weight: 200;
 }
 
-li{
-    font-family: 'Times New Roman', Times, serif;
+ol li,
+.procedure
+{
+    background-color: aquamarine;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+.description
+{
+    background-color: rgb(83, 174, 254);
+    font-weight: 500;
+}
 
+#main_desc
+{
+    font-weight: bolder;
+    background-color: rgb(174, 7, 7);
+    font-size: 28px;
+}
+
+#enjoy
+{
+    font-size:medium;
+    color:gold;
+    background-color: purple;
+    font-family: 'Franklin Gothic Medium',Georgia;
+}
