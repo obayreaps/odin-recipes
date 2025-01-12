@@ -1,15 +1,75 @@
 *
 {
     font-family:'Times New Roman', Times, sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
+
+body
+{
+    box-sizing: border-box;
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    padding:40px;
+}
+
+img
+{
+    display:block;
+    height:500px;
+    width: auto;
+}
+
+
 
 .title
 {
+    display: block;
     font-weight: bold;
     font-size: 40px;
-    background-color: black;
-    color:white;
+    background-color: rgb(255, 205, 113);
+    color:rgb(0, 0, 0);
     text-align:center;
+    border: 1px solid black;
+    padding:1px;
+    width:300px;
+    margin: 0 auto;
+}
+
+#main_desc
+{
+    display: inline-block;
+    font-weight: bolder;
+    background-color: white;
+    font-size: 20px;
+    margin: 10px 0px 2px;
+}
+
+.subheading
+{
+    display: block;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.recipe-link
+{
+    font-weight: 200;
+    font-size: 18px;
+    padding:20px;
+    /* border: 1px solid rgb(255, 154, 52); */
+}
+
+.author
+{
+    text-align: center;
+    background-color: white;
+    font-weight: 500px;
+    font-size: 20px;
+    padding: 5px;
 }
 
 h2 {
@@ -21,35 +81,56 @@ h2 {
 ul li,
 .ingrediant
 {
-    background-color: blanchedalmond;
+    display:inline-block;
+    width:250px;
+    background-color: rgb(255, 206, 142);
     font-weight: 200;
+    border:1px solid black;
 }
 
 ol li,
 .procedure
 {
-    background-color: aquamarine;
+    /* background: rgb(255 84 104 / 30%); */
+    background: rgb(126 48 254 / 30%);
+    /* background-color: rgb(127, 255, 212); */
     font-weight: 300;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.description
-{
-    background-color: rgb(83, 174, 254);
-    font-weight: 500;
+.procedure{
+    display:inline-block;
+    border: 1px solid black;
+    margin-left: 25px;
 }
 
-#main_desc
+.description
 {
-    font-weight: bolder;
-    background-color: rgb(174, 7, 7);
-    font-size: 28px;
+    display: inline-block;
+    background-color: rgb(205, 237, 250);
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(36, 46, 61);
+}
+
+p{
+    padding: 1px;
 }
 
 #enjoy
 {
+    display: inline-block;
     font-size:medium;
     color:gold;
     background-color: purple;
     font-family: 'Franklin Gothic Medium',Georgia;
+    margin-top:10px;
+}
+
+.button
+{
+    display:block;
+    border: 2px black;
+    margin-top: 1px;
 }

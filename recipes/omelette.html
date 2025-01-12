@@ -7,13 +7,19 @@
         <link rel ="stylesheet" href="style.css"> 
     </head>
     <body>
-        <h1 class = "title">Kevin's Omellete Recipe</h1>
+        <h1 class = "title">Omellete Recipe</h1>
+        <div class = "author">By Kevin Le</div>
         <h4 id = "main_desc">Description</h4>
-        <p class = "description">An omelette is a dish made from beaten eggs that are cooked quickly in a frying pan with butter or oil. The eggs are typically folded around fillings such as cheese, vegetables, meats, or herbs.</p>
-        <p class = "description">Omelettes are known for their fluffy texture and versatility, making them a popular choice for breakfast or brunch. They can be simple with just cheese or more elaborate with multiple ingredients, tailored to individual tastes.</p>
-        <img src="https://bellyfull.net/wp-content/uploads/2020/08/Omelette-blog-3.jpg" width="490" height="400">
-        
-        <h2 class = "font">Ingredients</h2>
+        <div style="display:block">
+            <div class = "description">
+                <p>An omelette is a dish made from beaten eggs that are cooked quickly in a frying pan with butter or oil. The eggs are typically folded around fillings such as cheese, vegetables, meats, or herbs.</p>
+                <p>Omelettes are known for their fluffy texture and versatility, making them a popular choice for breakfast or brunch. They can be simple with just cheese or more elaborate with multiple ingredients, tailored to individual tastes.</p>
+            </div>
+        </div>
+
+        <img  class="img" src="https://bellyfull.net/wp-content/uploads/2020/08/Omelette-blog-3.jpg">
+
+        <div class = "subheading">Ingredients</div>
         <ul>
             <li class="ingrediant">Eggs</li>
             <li class="ingrediant">Salt</li>
@@ -21,18 +27,22 @@
             <li class="ingrediant">Butter</li>
             <li class="ingrediant">Fresh herbs of your choice</li>
         </ul>
-        <h2 class = "font">Cooking Procedures</h2>
-        <ol>
-            <li class="procedure">Beat the eggs</li>
-            <li class="procedure">Heat the pan</li>
-            <li class="procedure">Chop the herbs</li>
-            <li class="procedure">Put butter in the plan when hot</li>
-            <li class="procedure">Pour the eggs into pan</li>
-            <li class="procedure">Add the fillings</li>
-            <li class="procedure">Add your seasoning</li>
-            <li class="procedure">Fold the omelette</li>
-        </ol>
-        <p id="enjoy"><strong>Enjoy!</strong></p>
-        <a href="../index.html">Back</a>
+        <div class = "subheading">Cooking Procedures</div>
+        <div class = "procedure">
+            <ol>
+                <li>Beat the eggs</li>
+                <li>Heat the pan</li>
+                <li>Chop the herbs</li>
+                <li>Put butter in the plan when hot</li>
+                <li>Pour the eggs into pan</li>
+                <li>Add the fillings</li>
+                <li>Add your seasoning</li>
+                <li>Fold the omelette</li>
+            </ol>
+        </div>
+        <div style="display: block;">
+            <p id="enjoy"><strong>Enjoy!</strong></p>
+            <a class = "button" href="../index.html">Back</a>
+        </div>
     </body>
 </html>
