@@ -1,3 +1,5 @@
 # Oding Project 1
 
-This is the Recipes Project.
+The final version of the recipes website!
+
+Link to the website: https://obayreaps.github.io/odin-recipes/
